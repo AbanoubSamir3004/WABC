@@ -16,7 +16,12 @@
     <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-opacity-10 ">
       <div class="container-fluid">
         <a class="navbar-brand" style="display: contents;" href="index.html">
-          <img src="assets/img/Logo.png" onerror="this.src='assets/img/Logo-en.png'" style="max-height: 65px;" alt="">
+          <img src="assets/img/Logo.png" style="max-height: 40px;" class="me-3" alt="">
+          <div class="text-center text-white">
+            <span>مجموعة وابك</span>
+            <br>
+            <span>WABC GROUP</span>
+          </div>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
@@ -41,10 +46,13 @@
             </li>
           </ul>
           <div class="d-flex justify-content-end py-3">
-            <a href="javascript:void(0);" onclick="changeLang()" class="align-items-center btn btn-success d-flex pt-2" id="changeLang">
+            <a href="javascript:void(0);" onclick="changeLang()"
+              class="align-items-center btn btn-outline-main d-flex pt-2" id="changeLang">
               <span id="changeLangText">EN</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe ms-1" viewBox="0 0 16 16">
-                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-globe ms-1" viewBox="0 0 16 16">
+                <path
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
               </svg>
             </a>
           </div>
@@ -54,7 +62,7 @@
   </header>
 
   <!-- start page content -->
-  <section >
+  <section>
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -67,18 +75,20 @@
           <img src="assets/img/slider0.jpg" class="d-inline-block w-100" style="max-height: 100vh;" alt="5..">
           <div class="carousel-bg-eee"></div>
           <div class="carousel-caption">
-            <h2 class="d-none d-md-block">العالميه للخدمات العالمية <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
-              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
-            </svg>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h2>
+            <h2 class="d-none d-md-block">مجموعة وابك </h2>
             <p class="d-none d-lg-block">
-              تأسست شركة العالمية للخدمات البيئية كشركة سعودية في عام 2022على يد كادر من خبراء البيئة بهدف دعم التنمية
-              المستدامة و رفع الوعي البيئي وخدمة القطاعين العام والخاص بالمملكة العربية السعودية وقامت ومنذ بدايتها
-              بإحتضان العديد من الكفاءات وكونت ولله الحمد فريق عمل قادر على العمل جنبا إلى جنب مع العملاء لتحديد ورسم
-              معالم طريق مستقبلهم عن طريق تطبيق أحدث الوسائل والتقنيات البيئية التي ينتج عنها تجنب الكوارث والحوادث
-              الصناعية والطبيعية إضافة الي تقديم خدمة ذات مستوى راقى وجودة عالية من خلال مراعاة آداب المهنة ورضا العميل
-              ومواكبة التطورات وأفضل الممارسات في الدراسات العلمية وأساليب الحفاظ على البيئة من حيث القوانين
-              والأنظمة،كما
-              أن حس المسؤولية والنشاط والعمل الجاد والالتزام بالمواعيد النهائية هى أبرز ما يميز فريق عملنا
+              مجموعــــة شــــركات متعــــددة
+              التخصصـــات تعمــل فـي مجال الدراســات
+              واالستشــارات اإلداريــة والبيئيــــة منــــذ
+              18 عـــام بالمملكـــة العربيـــة الســـعودية
+              وعــــدة دول حــــول العالــــم وتمتــاز
+              بمزيــج مــن الخبــرة فــي مختلــف مجــال
+              االستشــارات مــا جعلهــا واحــدة مــن
+              المجموعــات الرائــدة فــي مجــال إدارة
+              المشـاريع وتقديـم الخدمـات االستشـارية
+              التــي تعمــل علــى ابتــكار ومواكبــة
+              أحــدث التقنيــات واألنظمــة لتقديــم
+              خدماتهــا بأفضــل جــودة وأعلــى كفــاءة
             </p>
           </div>
         </div>
@@ -86,16 +96,20 @@
           <img src="assets/img/slider1.jpg" class="d-inline-block w-100" style="max-height: 100vh;" alt="5..">
           <div class="carousel-bg-eee"></div>
           <div class="carousel-caption">
-            <h2 class="d-none d-md-block">العالميه للخدمات العالمية </h2>
+            <h2 class="d-none d-md-block">مجموعة وابك </h2>
             <p class="d-none d-lg-block">
-              تأسست شركة العالمية للخدمات البيئية كشركة سعودية في عام 2022على يد كادر من خبراء البيئة بهدف دعم التنمية
-              المستدامة و رفع الوعي البيئي وخدمة القطاعين العام والخاص بالمملكة العربية السعودية وقامت ومنذ بدايتها
-              بإحتضان العديد من الكفاءات وكونت ولله الحمد فريق عمل قادر على العمل جنبا إلى جنب مع العملاء لتحديد ورسم
-              معالم طريق مستقبلهم عن طريق تطبيق أحدث الوسائل والتقنيات البيئية التي ينتج عنها تجنب الكوارث والحوادث
-              الصناعية والطبيعية إضافة الي تقديم خدمة ذات مستوى راقى وجودة عالية من خلال مراعاة آداب المهنة ورضا العميل
-              ومواكبة التطورات وأفضل الممارسات في الدراسات العلمية وأساليب الحفاظ على البيئة من حيث القوانين
-              والأنظمة،كما
-              أن حس المسؤولية والنشاط والعمل الجاد والالتزام بالمواعيد النهائية هى أبرز ما يميز فريق عملنا
+              مجموعــــة شــــركات متعــــددة
+              التخصصـــات تعمــل فـي مجال الدراســات
+              واالستشــارات اإلداريــة والبيئيــــة منــــذ
+              18 عـــام بالمملكـــة العربيـــة الســـعودية
+              وعــــدة دول حــــول العالــــم وتمتــاز
+              بمزيــج مــن الخبــرة فــي مختلــف مجــال
+              االستشــارات مــا جعلهــا واحــدة مــن
+              المجموعــات الرائــدة فــي مجــال إدارة
+              المشـاريع وتقديـم الخدمـات االستشـارية
+              التــي تعمــل علــى ابتــكار ومواكبــة
+              أحــدث التقنيــات واألنظمــة لتقديــم
+              خدماتهــا بأفضــل جــودة وأعلــى كفــاءة
             </p>
           </div>
         </div>
@@ -103,16 +117,20 @@
           <img src="assets/img/slider1.jpg" class="d-inline-block w-100" style="max-height: 100vh;" alt="5..">
           <div class="carousel-bg-eee"></div>
           <div class="carousel-caption">
-            <h2 class="d-none d-md-block">العالميه للخدمات العالمية </h2>
+            <h2 class="d-none d-md-block">مجموعة وابك </h2>
             <p class="d-none d-lg-block">
-              تأسست شركة العالمية للخدمات البيئية كشركة سعودية في عام 2022على يد كادر من خبراء البيئة بهدف دعم التنمية
-              المستدامة و رفع الوعي البيئي وخدمة القطاعين العام والخاص بالمملكة العربية السعودية وقامت ومنذ بدايتها
-              بإحتضان العديد من الكفاءات وكونت ولله الحمد فريق عمل قادر على العمل جنبا إلى جنب مع العملاء لتحديد ورسم
-              معالم طريق مستقبلهم عن طريق تطبيق أحدث الوسائل والتقنيات البيئية التي ينتج عنها تجنب الكوارث والحوادث
-              الصناعية والطبيعية إضافة الي تقديم خدمة ذات مستوى راقى وجودة عالية من خلال مراعاة آداب المهنة ورضا العميل
-              ومواكبة التطورات وأفضل الممارسات في الدراسات العلمية وأساليب الحفاظ على البيئة من حيث القوانين
-              والأنظمة،كما
-              أن حس المسؤولية والنشاط والعمل الجاد والالتزام بالمواعيد النهائية هى أبرز ما يميز فريق عملنا
+              مجموعــــة شــــركات متعــــددة
+              التخصصـــات تعمــل فـي مجال الدراســات
+              واالستشــارات اإلداريــة والبيئيــــة منــــذ
+              18 عـــام بالمملكـــة العربيـــة الســـعودية
+              وعــــدة دول حــــول العالــــم وتمتــاز
+              بمزيــج مــن الخبــرة فــي مختلــف مجــال
+              االستشــارات مــا جعلهــا واحــدة مــن
+              المجموعــات الرائــدة فــي مجــال إدارة
+              المشـاريع وتقديـم الخدمـات االستشـارية
+              التــي تعمــل علــى ابتــكار ومواكبــة
+              أحــدث التقنيــات واألنظمــة لتقديــم
+              خدماتهــا بأفضــل جــودة وأعلــى كفــاءة
             </p>
           </div>
         </div>
@@ -131,332 +149,159 @@
 
   <section class="py-5 bg-eee">
     <div class="container">
-      <div class="row row-cols-1 row-cols-lg-2 g-5">
+      <div class="row mb-5">
+        <h2 class="fw-bold header-section">
+          <span class="position-absolute" style="z-index: 1;">كلمة المدير</span>
+          <br>
+          العام <span class="text-main">للمجموعة</span>
+          <span class="spanHeader"></span>
+          <img src="assets/img/pattern-main.png" class="imgHeader" alt="">
+        </h2>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-2 ">
         <div class="col">
-          <div class="card h-100 p-4 bg-success">
-            <img src="assets/img/future-vision-01.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title ">رؤيتنا المستقبلية</h3>
-              <p class="card-text fs-5">أن نكون رواداً ودليلاً للاستشارات والدراسات والخدمات المتعلقة بحماية البيئة،
-                والتنمية
-                المستدامة والصحة العامة، والسلامة المهنية ومواكبة أحدث التطورات العالمية، لتوفير بيئة صحية وصديقة
-                للأعمال وأن نتبوأ مركز الصدارة و الريادة في حماية بيئة بالمملكة والوطن العربي بمقاييس ومواصفات عالمية .
-              </p>
-            </div>
-          </div>
+          <p class="card-text fs-5">
+            تأسســت وابــك جــروب بالمملكــة العربيــة الســعودية
+            فـي عـام 1425 هــ برؤيـة واضحـة وهـي تقديـم الخدمـات
+            االستشــارية و التشــغيلية للقطاعيــن العــام والخــاص
+            بــدول الخليــج وعالمنــا العربــي والشــرق األوســط
+            الكبيـر وفــق أفضــل المعاييــر الدوليــة والتكنولوجيـــة
+            واألنظمـــة والعقـــود و االتفاقيـــات بأعلـــى مســـتويات
+            الجــــودة . تضــم المجموعــة فــرق عمــل متخصصــة
+            إلدارتهــا مــن أفضــل الخبــرات واإلمكانيــات المؤهلــة
+            ً ا مــع رؤيــة المنطقــة فــي جعــل
+            لســوق العمــل تماشــي
+            المملكـة العربيـة السـعودية علـى أفضـل طـراز عالمـي
+            علــى جميــع األصعــدة وتغطــي خدماتنــا جميــع مراحــل
+            دورة حيــاة المنشــآت وقــد تبــوأت وابــك جــروب خــال
+            تلــك الفتــرة مكانتهــا كرائــدة فــي مجــال االستشــارات
+            البيئــة والعلميــة واإلداريــة إضافــة الــي المجــاالت
+            التشـغيلية المختلفـة مـن خـال توفيـر أعلـى مسـتويات
+            مـن الكفـاءة فـي األداء والقـدرة التنافسـية األمثـل مـع
+            االهتمــام بتطبيــق أعلــى معاييــر الجــودة والســامة.
+          </p>
+
         </div>
         <div class="col">
-          <div class="card h-100 p-4 mt-5 bg-light">
-            <img src="assets/img/future-vision-02.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title ">الرسالة التي نقدمها</h3>
-              <p class="card-text fs-5">- السعي المستمر لإيجاد بيئة نظيفة خالية من الأمراض والآفات ولمجتمع صحي أفضل طبقا
-                للمعايير وأفضل الممارسات العالمية وتقديم خدمات متخصّصة ومميّزة ومشاركة القطاع العام لتحقيق التنمية
-                المستدامة في المملكة العربية السعودية (الخصخصة) وفق رؤية 2030 وذلك من أجل المساهمة بفعاليّة في تحقيق
-                التنمية المستدامة في المملكة العربية السعودية بواسطة خبرات وطنية مؤهلة، بالتعاون مع مؤسسات وبيوت خبرة
-                وطنية ودولية مختلفة.. - تقديم خدمات و حلول بيئية متكاملة للمحافظة على البيئة لأجيال قادمة. - ربط المعرفة
-                النظرية بالخبرة وتقديم الحلول المستدامة والتقنيات المبتكرة باساليب واستشارات ودراسات علمية حديثة والعمل
-                على تطبيق اسس الادارة البيئية المتكاملة للمدن الحضرية والمرتبطة بالصحة والسلامة المهنية وادارة المخلفات
-                والمياه والطاقة.
-              </p>
-            </div>
-          </div>
+          <p class="card-text fs-5">
+            وفـي عصـر التكنولوجيـا المتقدمـة والتقنيـات الحديثـة،
+            نســعى باســتمرار لتقديــم الحلــول المبتكــرة التــي تزيــد
+            الفاعليـة وتعـزز الكفـاءة مـن اجـل الحفـاظ علـى مواردنـا
+            لألجيــال القادمــة
+            تعــد وابــك جــروب هــي الخيــار المفضــل للعديــد مــن
+            خــال اإلدارة الفعالــة والحــرص علــى اإلتقــان واإلبــداع
+            مــع اإللتــزام ناحيــة العمــاء بتطبيــق أعلــى معاييــر
+            الجـودة والسـامة العامـة، وتوظيـف التقنيـات الحديثـة
+            فــي التنفيــذ، باإلضافــة إلــى نقــل المعرفــة إلــى الكــوادر
+            الوطنيــة؛ إيمانــا منهــا بدورهــا فــي المســاهمة فــي
+            تحقيـق الرؤيـة المسـتقبلية لمنطقتنـا العربيـة. ونتطلـع
+            خــال الســنوات المقبلــة أن نجــدد عهدنــا بالبقــاء علــى
+            قائمــة التميــز، ومواصلــة الســعي للتغلــب علــى جميــع
+            ً التحديــات الماثلــة أمامنــا؛ حرصــا منــا علــى مواكبــة
+            التطــورات واالبتــكارات، وتبنــي أفضــل أســاليب اإلدارة
+            وتقنيــات الجــودة.
+          </p>
         </div>
       </div>
     </div>
   </section>
-  <!-- <section class="py-5 bg-eee">
+  <section class="py-5 bg-white">
     <div class="container">
-      <div class="row">
-        <div class="col-xl-10 mx-auto">
-          <h2 class="text-center fs-1 mt-4">Integrated pest management</h2>
-          <p class="text-justify">
-            Rentokil employs a five-stage approach to pest control, focusing on strategic preventative
-            measures rather than a tactical reactive programme.
-          </p>
-        </div>
-        <div class="col-xl-10 mx-auto">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                  this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                  collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                  this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                  collapse
-                  plugin adds the appropriate classes that we use to style each element. These classes control the
-                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
-                  this
-                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
-                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-              </div>
-            </div>
+      <div class="row mb-5">
+        <h2 class="fw-bold header-section">
+          <span class="position-absolute" style="z-index: 1;">من نحن</span>
+          <br>
+          <span class="text-main">نبذة عنا</span>
+          <span class="spanHeaderNum">01
+            <img src="assets/img/pattern-main.png" class="spanHeaderNumImg" alt="">
+          </span>
+        </h2>
+      </div>
+      <div class="row  ">
+        <div class="col-md-5 pt-2 imgCol" style="background-image: url(assets/img/Architects.jpeg);">
+          <img src="assets/img/Logo.png" style="max-height: 40px;" class="me-3" alt="">
+          <div class="text-center text-white">
+            <span>مجموعة وابك</span>
+            <br>
+            <span>WABC GROUP</span>
           </div>
         </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- <section class="py-5">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-xl-10 mx-auto fs-5">
-          <p class="text-center">Rentokil has been keeping people, homes, and businesses
-            safe from the dangers of poor hygiene and pest-borne diseases for over 95 years. Our mission today is
-            the same as it has always been: to protect people and enhance lives.</p>
-          <p class="text-justify">We believe that innovation is a key factor to success. Our
-            <a href="javascript:void(0);">Global Research and Development Centre</a> provides our front-line
-            colleagues with the tools and solutions
-            they need to deliver <a href="javascript:void(0);">differentiated pest control services</a>.
-            Rentokil is committed to <a href="javascript:void(0);">sustainability</a> and exploring the use
-            of greener, non-toxic solutions, while continuing to offer our customers the high levels of pest
-            protection their businesses need.
+        <div class="col-md-7 ">
+          <p class="card-text fs-5">
+            مجموعــــة شــــركات متعــــددة
+            التخصصـــات تعمــل فـي مجال الدراســات
+            واالستشــارات اإلداريــة والبيئيــــة منــــذ
+            18 عـــام بالمملكـــة العربيـــة الســـعودية
+            وعــــدة دول حــــول العالــــم وتمتــاز
+            بمزيــج مــن الخبــرة فــي مختلــف مجــال
+            االستشــارات مــا جعلهــا واحــدة مــن
+            المجموعــات الرائــدة فــي مجــال إدارة
+            المشـاريع وتقديـم الخدمـات االستشـارية
+            التــي تعمــل علــى ابتــكار ومواكبــة
+            أحــدث التقنيــات واألنظمــة لتقديــم
+            خدماتهــا بأفضــل جــودة وأعلــى كفــاءة
+            ، فهــى شــريك مثالــي لبلــوغ األهــداف
+          </p>
+          <p class="card-text fs-5">
+            ونجـاح المشـروعات. وتعمـل وابـك جـروب
+            علــى مواكبــة التطــورات فــي التقنيــات
+            الحديثــة المتعــارف عليهــا عالميــا والتــي
+            تضمــن تحقيــق رضــا عمالئهــا، إضافــة
+            الــى تضميــن متطلبــات مجــاالت العمــل
+            العصريــة فــي منطقــة الشــرق االوســط.
+            كمــا نهتــم باختيــار أفضــل العناصــر
+            والخبــرات فــي فريــق العمــل والــذي يعــد
+            الدعامــة األساســية للمجموعــة، ونعمــل
+            علــى تطويرهــم المســتمر لضمــان مســتوى
+            االحترافيــة والتواصــل الفعــال والفهــم
+            المتعمــق لتحديــات ســوق العمــل فــي
+            المنطقــة بفكــر عالمــي حديــث ومتطــور.
           </p>
         </div>
       </div>
     </div>
-  </section> -->
-  <!-- <section class="">
-    <div class="row mx-0">
-      <div class="col-12 p-0 cardBg"
-        style="background-image:url('assets/img/Image-Stock-Girl is holding mesh shopping bag with avocado without plastic bags at vegetable grocery shop-GLO-EN-1226057221.jpg') ;">
-        <div class="cardBgContent" style="margin: 10% !important;">
-          <h3>Digital pest control</h3>
-          <p>A range of digitally enhanced connected pest management solutions providing commercial customers
-            unrivalled data, insights and reporting to proactively prevent and manage pests.</p>
-          <div class="text-end">
-            <a class="btn btn-outline-primary rounded-0" href="javascript:void(0);">
-              Find out more
-            </a>
-          </div>
-        </div>
+  </section>
+
+  <section class="py-5 bgFixed" style="background-image:url(assets/img/B&W.jpg) ;">
+    <div class="container">
+      <div class="row mb-5">
+        <h2 class="fw-bold header-section">
+          <span class="text-main">نبذة عنا</span>
+        </h2>
       </div>
-    </div>
-  </section> -->
-  <!-- <section class="py-5 bg-eee">
-    <div class="container py-5">
       <div class="row">
-        <div class="col-xl-10 mx-auto">
-          <h2 class="text-center fs-1 mt-4">Commercial pest control and disinfection services</h2>
-          <p class="text-justify fs-5 mt-4">We keep your staff, customers, and brand reputation protected with
-            industry-leading&nbsp;
-            <a href="javascript:void(0);">pest control services</a>&nbsp;that are tailored to your business and fully
-            support regulatory compliance. With hygiene remaining a priority in the aftermath of the COVID-19
-            pandemic,
-            our&nbsp;<a href="javascript:void(0);">disinfection services</a>&nbsp;can keep your business, staff, and
-            customers protected now and help safeguard your premises for the future.
+        <!-- <div class="col-md-5 pt-2 imgCol" style="background-image: url(assets/img/Architects.jpeg);">
+          <img src="assets/img/Logo.png" style="max-height: 40px;" class="me-3" alt="">
+          <div class="text-center text-white">
+            <span>مجموعة وابك</span>
+            <br>
+            <span>WABC GROUP</span>
+          </div>
+        </div> -->
+        <div class="col">
+          <p class="card-text text-white fs-5 text-shadow"  >
+            أن نقــدم العديــد مــن الخدمــات
+            بأفضــل أداء وأعلــى كفــاءة
+            لتحقيــق رضــا عمالؤنــا ومواكبــة
+            آخــر التطــورات فــي عالــم اإلدارة
+            والتقنيــة.
+          </p>
+          <p class="card-text text-white fs-5 text-shadow"  >
+            ً أن نتولــى دورا قياديــا فــي تقديــم
+            خدماتنــا المتكاملــة بأســلوب
+            احترافـي؛ ممـا يحقـق، بـل ويفـوق
+            توقعــات عمالئنــا، وأن ننــال ثقــة
+            العميـل لنكـون أول اختيـار يتوجـه
+            إليــه إلســتيفاء متطلباتــه بأعلــى
+            معاييــر الجــودة والتميــز.            
           </p>
         </div>
       </div>
     </div>
-  </section> -->
-  <!-- <section class="">
-    <div class="row mx-0">
-      <div class="col-lg-6 p-0 cardBg"
-        style="background-image:url(assets/img/image-stock-europe-night-lights-1172807596.webp) ;">
-        <div class="cardBgContent">
-          <h3>Digital pest control</h3>
-          <p>A range of digitally enhanced connected pest management solutions providing commercial customers
-            unrivalled data, insights and reporting to proactively prevent and manage pests.</p>
-          <div class="text-end">
-            <a class="btn btn-outline-primary rounded-0" href="javascript:void(0);">
-              Find out more
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 p-0 cardBg" style="background-image:url(assets/img/power-centre-science.jpg) ;">
-        <div class="cardBgContent">
-          <h3>Pest control services</h3>
-          <p>Rentokil is the global leader in commercial pest control. We offer a range of innovative, targeted
-            treatments and proofing solutions to ensure your business stays pest-free.</p>
-          <div class="text-end">
-            <a class="btn btn-outline-primary rounded-0" href="javascript:void(0);">
-              Find out more
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 p-0 cardBg"
-        style="background-image:url(assets/img/rentokil-colleague-image-inspecting-activity-in-restaurant-industrial-kitchen-pda-torch-glo.webp) ;">
-        <div class="cardBgContent">
-          <h3>Initial hygiene services</h3>
-          <p>Our sister company Initial offers smart hygiene, surface hygiene, hand hygiene, air care and
-            award-winning
-            washroom solutions to help your business create healthier, more hygienic and productive workplace
-            environments.</p>
-          <div class="text-end">
-            <a class="btn btn-outline-primary rounded-0" href="javascript:void(0);">
-              Find out more
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 p-0 cardBg"
-        style="background-image:url(assets/img/Rentokil-Digital-Image-Global-buildings\ lit\ up-GLO.jpg) ;">
-        <div class="cardBgContent">
-          <h3>Specialist disinfection</h3>
-          <p>Rentokil offers a range of fast response, discreet and legally-compliant deep clean and disinfection
-            services to help stop the spread of pathogens and protect your business from infectious bacteria, virus,
-            and
-            disease.</p>
-          <div class="text-end">
-            <a class="btn btn-outline-primary rounded-0" href="javascript:void(0);">
-              Find out more
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- <section class="py-5 bg-eee">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-xl-10 mx-auto">
-          <h2 class="text-center fs-1 mt-4">Industry experience and sector expertise</h2>
-          <p class="text-justify fs-5 mt-4">
-            Rentokil offers integrated pest management (IPM) programmes tailored to individual client needs, fully
-            supporting regulatory and auditing requirements. Our nearly 100 year history gives us the knowledge and
-            experience to identify and anticipate pest and hygiene threats to your business.
-          </p>
-        </div>
-        <div class="col-xl-10 mx-auto">
-          <div class="row justify-content-evenly">
-            <div class="text-center p-0 fs-5" style="width: 100px;">
-              <img src="assets/img/icon.ico" style="width: 80%;" alt="">
-              <span>sssss</span>
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 100px;">
-              <img src="assets/img/icon.ico" style="width: 80%;" alt="">
-              <span>sssss</span>
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 100px;">
-              <img src="assets/img/icon.ico" style="width: 80%;" alt="">
-              <span>sssss</span>
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 100px;">
-              <img src="assets/img/icon.ico" style="width: 80%;" alt="">
-              <span>sssss</span>
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 100px;">
-              <img src="assets/img/icon.ico" style="width: 80%;" alt="">
-              <span>sssss</span>
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 100px;">
-              <img src="assets/img/icon.ico" style="width: 80%;" alt="">
-              <span>sssss</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- <section class="">
-    <div class="row mx-0">
-      <div class="col-lg-6 p-0 cardBg" style="background-image:url(assets/img/power-centre-science.jpg) ;">
-        <div class="cardBgContent">
-          <h3>Pest control innovation and expertise </h3>
-          <p>Our Global Research and Development centre drives our industry-leading innovations for commercial pest
-            control.</p>
-          <div class="text-end">
-            <a class="btn btn-outline-primary rounded-0" href="javascript:void(0);">
-              Find out more
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 p-0 cardBg"
-        style="background-image:url(assets/img/stock-image-specialist\ disinfection-delivery-gettyImages-122438109.webp) ;">
-        <div class="cardBgContent">
-          <h3>Global account management</h3>
-          <p>Providing multinational businesses with comprehensive, tailored solutions to support your global pest
-            control needs.</p>
-          <div class="text-end">
-            <a class="btn btn-outline-primary rounded-0" href="javascript:void(0);">
-              Find out more
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- <section class="py-5 bg-eee">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-xl-10 mx-auto">
-          <h2 class="text-center mb-5">Sponsers</h2>
-          <div class="row justify-content-evenly">
-            <div class="text-center p-0 fs-5" style="width: 160px;">
-              <img src="assets/img/cepa.webp" style="width: 80%;" alt="">
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 160px;">
-              <img src="assets/img/cepa.webp" style="width: 80%;" alt="">
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 160px;">
-              <img src="assets/img/cepa.webp" style="width: 80%;" alt="">
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 160px;">
-              <img src="assets/img/cepa.webp" style="width: 80%;" alt="">
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 160px;">
-              <img src="assets/img/cepa.webp" style="width: 80%;" alt="">
-            </div>
-            <div class="text-center p-0 fs-5" style="width: 160px;">
-              <img src="assets/img/cepa.webp" style="width: 80%;" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- end page content -->
-  <!-- <iframe
+  </section>
+  <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.536868823971!2d31.2031566845743!3d30.050141981880166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584131200d80cb%3A0xa5f3c8a51858fb8e!2zMjgg2LPZhNmK2YXYp9mGINin2KjYp9i42YfYjCDYp9mE2K_ZgtmK2Iwg2YLYs9mFINin2YTYr9mC2YrYjCDYp9mE2KzZitiy2Kk!5e0!3m2!1sar!2seg!4v1643295488818!5m2!1sar!2seg"
-    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   <!-- <footer class="end-section" style="border-top:7px solid red ;">
 
     <div class="container py-5">
