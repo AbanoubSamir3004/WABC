@@ -1,3 +1,8 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../font/RB-Regular.ttf);
+}
+
 * {
   transition: 0.6s all ease-in-out;
 }
@@ -21,7 +26,7 @@
 }
 
 body {
-  font-family: "Cairo", sans-serif;
+  font-family: myFirstFont;
 }
 
 .dir-rtl {
