@@ -2,9 +2,9 @@
   font-family: myFirstFont;
   src: url(../font/RB-Regular.ttf);
 }
-/* * {
+* {
   transition: 0.3s all ease-in-out;
-} */
+}
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -42,8 +42,8 @@ a {
   color: #0071b1;
   text-decoration: none;
 }
-li {
-  list-style-type: none;
+p {
+  text-align: justify;
 }
 .bg-eee {
   background-color: #eee;
@@ -97,15 +97,15 @@ li {
   background-color: #00000080;
 }
 #myNavbar .nav-item:hover {
-  background-color: #198754;
+  background-color: var(--main-color);
   border-radius: 4px;
 }
 .bg-nav {
-  background-color: #198754;
+  background-color: var(--main-color);
 }
 @media only screen and (max-width: 991px) {
   .navbar-collapse {
-    background-color: rgb(0, 154, 116);
+    background-color:black;
 
     border-radius: 5px;
   }
@@ -223,4 +223,61 @@ li {
 .text-shadow{
   text-shadow: 0 0px 12px black;
   color: white;
+}
+.boxShadowInset{
+  box-shadow: inset -20px 20px 86px 0 black;
+}
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: var(--main-color);
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.cardOurView {
+  display: block;
+  top: 0px;
+  position: relative;
+  max-width: 262px;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+  color: #00000099;
+}
+
+.cardOurView .go-corner {
+  opacity: 0.7;
+}
+
+.cardOurView:hover {
+  border: 1px solid var(--main-color);
+  box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
+  z-index: 500;
+}
+
+.cardOurView:hover p {
+  color: black;
+}
+
+.cardOurView:hover .go-corner {
+  transition: opactiy 0.3s linear;
+  opacity: 1;
 }
