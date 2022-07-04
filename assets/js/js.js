@@ -1,3 +1,6 @@
+$(window).on("load", function () {
+  $(".loaderGif").fadeOut("slow");
+});
 $(document).ready(function () {
   let x = localStorage.getItem("lang");
   if (!x)
@@ -16,6 +19,14 @@ $(document).ready(function () {
       $("#bootstrapLink").prop("href", "assets/css/bootstrap.min.css");
     }
   }
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    items: 6,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+  });
 });
 
 window.onscroll = function () {
