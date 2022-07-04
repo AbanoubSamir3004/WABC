@@ -52,7 +52,8 @@ a {
   color: #0071b1;
   text-decoration: none;
 }
-p {
+p,
+li {
   text-align: justify;
 }
 .bg-eee {
@@ -115,7 +116,7 @@ p {
 }
 @media only screen and (max-width: 991px) {
   .navbar-collapse {
-    background-color:black;
+    background-color: black;
 
     border-radius: 5px;
   }
@@ -224,17 +225,17 @@ p {
   box-shadow: inset 0 0 130px 20px black;
   display: flex;
 }
-.bgFixed{
+.bgFixed {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
 }
-.text-shadow{
+.text-shadow {
   text-shadow: 0 0px 12px black;
   color: white;
 }
-.boxShadowInset{
+.boxShadowInset {
   box-shadow: inset -20px 20px 86px 0 black;
 }
 .go-corner {
@@ -271,7 +272,7 @@ p {
   overflow: hidden;
   border: 1px solid #f2f8f9;
   color: #00000099;
-  height:100%;
+  height: 100%;
 }
 
 .cardOurView .go-corner {
@@ -292,6 +293,16 @@ p {
   transition: opactiy 0.3s linear;
   opacity: 1;
 }
-/* .owl-carousel .owl-item{
-  height: 300px;
-} */
+
+.owlItem {
+  border: 1px solid #eee;
+  height: 200px;
+  margin-top: 12px;
+  border-radius: 2px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
