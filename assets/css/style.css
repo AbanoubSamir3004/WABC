@@ -238,7 +238,8 @@ li {
 .boxShadowInset {
   box-shadow: inset -20px 20px 86px 0 black;
 }
-.go-corner {
+.cardOurView .go-corner ,
+ .go-corner {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -251,7 +252,8 @@ li {
   background-color: var(--main-color);
   border-radius: 0 4px 0 32px;
 }
-.go-arrow {
+.cardOurView .go-arrow ,
+   .go-arrow {
   margin-top: -4px;
   margin-right: -4px;
   color: white;
@@ -334,4 +336,66 @@ li {
 }
 .w-fit{
   width: fit-content;
+}
+
+.cardOurCampany {
+  display: flex;
+  top: 0px;
+  position: relative;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+  color: #00000099;
+  height: 280px;
+  transform: rotate(45deg);
+  width: 280px;
+  text-align: center;
+  padding-top: 50px;
+  align-items: center;
+}
+.cardOurCampany .go-corner {
+  opacity: 0.7;
+}
+.cardOurCampany:hover {
+  border: 1px solid var(--main-color);
+  box-shadow: 0px 0px 999px 999px #0000001f;
+  z-index: 500;
+}
+.cardOurCampany:hover p {
+  color: black;
+}
+.cardOurCampany:hover .go-corner {
+  transition: opactiy 0.3s linear;
+  opacity: 1;
+}
+.cardOurCampany h3{
+  transform: rotate(-45deg) translate( 0% , -25% );
+  width: -webkit-fill-available;
+}
+
+.cardOurCampany .go-corner{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: var(--main-color);
+  border-radius: 0 4px 0 32px;
+}
+
+.cardOurCampany .go-arrow {
+  color: white;
+  font-family: 'myFirstFont';
+  transform: rotate(180deg);
+  font-weight: 900;
+  font-size: 30px;
+}
+.text-shadow-white {
+  text-shadow: 0 0px 4px white;
 }
