@@ -181,7 +181,7 @@ li {
 }
 .header-section .spanHeader {
   background-color: var(--main-color);
-  top: 35px;
+  top: 10px;
   right: -17px;
   width: 192px;
   height: 30px;
@@ -403,4 +403,7 @@ li {
 }
 .text-shadow-white {
   text-shadow: 0 0px 4px white;
+}
+.li-style-none{
+  list-style-type: none;
 }
